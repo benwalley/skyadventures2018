@@ -1,0 +1,274 @@
+body{
+	color:white;
+	overflow-x:hidden;
+	font-family: 'Lora', serif;
+	
+
+}
+
+
+/*MAIN BODY SECTION ==================================================*/ 
+#spaced {
+		height:90vh;
+		background:rgba(23,23,23,.4);
+}
+
+.mobileImage{
+	display:block;
+	height:75vh;
+	width:100vw;
+	float:left;
+	background:lightgrey;
+	background-image:url("../images/flyingPlane2.jpg");
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.mainVideo{
+	display:none;
+}
+
+.homeIntro{
+	width:100vw;
+	text-align:center;
+	font-size:5em;
+	z-index:0;
+	color:white;
+	position:absolute;
+	top:25vh;
+	text-shadow:1px 1px 6px black;
+}
+
+.welcomeIntro{
+	font-size:2.3rem;
+}
+
+
+.introText{
+	font-size:0.5em;
+}
+
+.fa-chevron-down{
+	font-size:6rem;
+}
+
+
+.but{
+	
+	font-size:5vw;
+	color:white;
+	text-align:center;
+	border-bottom:2px solid white;
+	text-shadow:1px 1px 6px black;
+
+}
+
+.scheduleButton{
+	display:grid;
+	grid-template-columns:1fr auto 1fr;
+	position:absolute;
+	top:40vh;
+	left:0;
+	width:100vw;
+}
+
+
+.but:hover{
+	text-decoration:none;
+	color:#107fc1;
+	
+}
+
+.onFacebookTitle{
+	width:100%;
+	text-align:center;
+	margin-bottom:10vw;
+}
+
+
+.sideImage{
+	width:80%;
+	margin-left:10%;
+	margin-top:100px;
+	box-shadow:4px 4px 10px rgba(0,0,0,.3);
+}
+
+
+.written{
+width:40%;
+padding:10%;
+float:left;
+font-size:3vw;
+	
+}
+
+.image{
+	float:left;
+	width:100%;
+}
+
+.image::before{
+
+	content:"Who We Are";
+	width:100%;
+	text-align:center;
+	float:left;
+	font-size:7vw;
+}
+
+.facebookSpace{
+	padding-top:10vh;
+	width:100vw;
+	float:left;
+	background:#e3e3e3;
+	display:grid;
+	grid-template-rows: auto repeat(4, 1fr);
+	border-top:10px solid #0f7fc1;
+	border-bottom:10px solid #0f7fc1;
+
+}
+
+.facebookSpace iframe{
+	max-width:100%;
+	margin:3vw auto;
+	border:none;
+	box-shadow:1px 1px 4px #b4b4b4;
+
+
+}
+
+
+
+#blue{
+	color:white;
+	float:left;
+	background:#4591b7;
+	width:100%;
+	padding-top:10vh;
+	padding-bottom:13vh;
+	font-size:1.1vw;
+	
+}
+
+
+
+.instr{
+	width:100vw;
+	color:#313131;
+	background:#b7dff3;
+	float:left;
+
+	font-size:1.1vw;
+
+
+}
+
+.emptyInstructor{
+	border:1px solid black;
+}
+
+
+.instructorTitle{
+	width:100%;
+	text-align:center;
+	margin:none;
+	letter-spacing:2px;
+	font-size:5vw;
+}
+
+.weatherPop{
+	width:40%;
+	height:70vh;
+	position:fixed;
+	left:30%;
+	top:20vh;
+	background:white;
+}
+
+.closer{
+	background:red;
+	height:8%;
+	width:10%;
+	float:right;
+	color:white;
+	text-align:center;
+	padding:6px;
+	font-size:1.4em;
+}
+
+.instructor{
+	width:40%;
+	float:left;
+	float:left;
+	margin:5vw 5%;
+	font-family:Helvetica Neue;
+
+}
+
+
+.instructorName{
+	text-align:center;
+	width:100%;
+	font-size:3vw;
+	padding:10px;
+}
+
+
+.instructorImage{
+	width:100%;
+
+	clip-path: ellipse(50% 50% at 50% 50%);
+
+}
+
+.written{
+	width:100%;
+	text-align:center;
+	text-decoration:none;
+}
+
+.written h2{
+
+	font-family: 'Playfair Display', serif;
+	display:none;
+	padding:15px;
+}
+
+.contactButton{
+	font-size:2vw;
+	color:#313131;
+	padding:7px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background:rgba(0,0,0,.1);
+	border-radius:7px;
+	border:2px solid rgba(255,255,255,.6);
+	margin-bottom:2em;
+	float:left;
+	margin-left:40%;
+	width:20%;
+	text-align:center;
+	margin:top:0px;
+}
+
+.contactButton:hover{
+	color:black;
+	background:white;
+	text-decoration: none;
+}
+
+.contactButton:focus{
+	color:#313131;
+	background:rgba(0,0,0,.1);
+	text-decoration: none;
+
+
+}
+
+
+
+font-family: 'Taviraj', serif;
+font-family: 'Lora', serif;
+font-family: 'Libre Baskerville', serif;

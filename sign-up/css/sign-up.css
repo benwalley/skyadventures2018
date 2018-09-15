@@ -1,0 +1,83 @@
+
+
+@media (orientation:landscape) {
+  iframe{
+
+	width:100%;
+	height:100vh;
+	float:left;
+	overflow:hidden;
+	border:none !important;
+	margin: 0;
+	padding: 0;
+	border:none;
+
+  }
+
+  #spacerd{
+  	height:19vh;
+  	float:left;
+  	width:100%;
+  }
+
+  .container{
+	overflow:hidden;
+	float:left;
+	width:100%;
+	height:100%;
+
+}
+
+
+
+
+
+
+
+}
+
+@media (orientation: portrait), (max-width: 482px){
+  iframe{
+  	padding-top:24vh;
+	width:100%;
+	height:80vh;
+
+
+	left:0;	
+	border:none;
+
+
+	overflow:hidden;
+  }
+
+  #spacerd{
+  	height:19vh;
+  	float:left;
+  	width:100%;
+  	display:none;
+  }
+
+  .container{
+	overflow:hidden;
+	float:left;
+	width:100%;
+	height:100%;
+
+}
+
+#navbar{
+	    border-bottom: 7px solid #057ec6;
+    box-sizing: content-box;
+}
+
+
+
+
+
+
+
+}
+
+
+
+

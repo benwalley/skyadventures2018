@@ -1,0 +1,86 @@
+body{
+
+}
+
+p{
+	font-size:.8em;
+	margin:0;
+}
+
+.links{
+	font-color:#337ab7 !important;
+	width:100%;
+	float:left;
+	background:#312c27 ;
+
+}
+
+.fb{
+	float:left;
+	width:100%;
+	min-height:10vh;
+	background:#3b5999;
+
+	margin:0;
+
+
+}
+
+.fbText{
+float:left;
+color:white;
+padding-left:10vw;
+padding-right:5vw;
+padding-top:0;
+font-weight:bold;
+font-size:4vw;
+font-family: 'Lora', serif;
+width:50%;
+
+}
+
+.fb img{
+	height:10vh !important;
+
+}
+
+
+.smallFb{
+	display:none;
+}
+
+.bigFb{
+	height:10vh !important;
+	padding:2vw;
+	float:left;
+	padding-right:15vw;
+}
+
+
+.linkStack{
+	width:50%;
+	float:right;
+	padding-top:5vw;
+}
+
+.link{
+	width:80%;
+	float:right;
+	padding:3px;
+	font-size:2.5vw;
+
+}
+.contact{
+	width:100%;
+	text-align:center;
+	float:left;
+	color:#b3b3b3;
+	font-family: 'Lora', serif;
+	font-size:2vw;
+	padding:2vw;
+	padding-top:3vw;
+
+}
+font-family: 'Taviraj', serif;
+font-family: 'Lora', serif;
+font-family: 'Libre Baskerville', serif;
