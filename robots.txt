@@ -1,0 +1,4 @@
+user-agent:*
+disallow:
+
+sitemap: http://www.skyadventures.online/sitemap.xml

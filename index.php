@@ -14,10 +14,10 @@
   <meta name="description" content="Sky Adventures in Springfield, MO offers flight training courses for anyone who is looking to obtain their pilot's license. We are also the only place in the state of Missouri that offers airplane rentals. Click here to learn more and to enroll in our flight training classes!">
  
 
-  <link rel="stylesheet" media="screen and (min-device-width: 769px)" href="css/airplane.css" />
+  <link rel="stylesheet" media="screen and (min-device-width: 768px) and (orientation:landscape)" href="css/airplane.css" />
 
-  <link rel="stylesheet" media="screen and (max-device-width: 768px)" href="css/phoneAirplane.css" />
-  
+  <link rel="stylesheet" media="screen and (max-device-width: 767px), (orientation:portrait)" href="css/phoneAirplane.css" />
+
   <link rel="apple-touch-icon" sizes="72x72" href="images/thumb-72.png" />
   
   <link rel="apple-touch-icon" sizes="114x114" href="images/thumb-114.png" />
@@ -25,6 +25,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="images/thumb-144.png" />
  
   <?php include("includes/header.html"); ?>
+
 
 
 <script src="https://use.fontawesome.com/98779a8e61.js"></script>
